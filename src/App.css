@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+
+/********************BODY***********************/
+*{
+  background-image: url("/src/images/darkback.jpg");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/**************************************NAVBAR*****************************************/
+ nav .navbar-brand{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/******MENU-LINKS********/
+
+
+
+nav a.nav-link{
+
+  font-weight: 500;
+  letter-spacing:0.0375rem ;
+  cursor: pointer;
+  
+}
+nav ul li{
+  text-transform: uppercase;
+}
+.navbar-nav > li > a{
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: white;
+  
+  
+}
+.navbar-nav{
+  margin-left: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/***************corousal********************/
+
+.carousel-inner{
+  height: 60vh ;
+  
+}
+
+
+
+.contain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 5rem; */
 }
